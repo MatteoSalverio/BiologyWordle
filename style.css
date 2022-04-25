@@ -1,0 +1,43 @@
+h1{
+    font-size: 64px;
+    text-align: center;
+    color: greenyellow;
+}
+h2{
+    font-size: 42px;
+    color: greenyellow;
+}
+h4{
+    font-size: 24px;
+    text-align: center;
+    color: greenyellow;
+}
+a{
+    font-size: 32px;
+    color: greenyellow;
+}
+p{
+    font-size: 32px;
+    text-align: center;
+}
+li{
+    font-size: 32px;
+    text-align: left;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+}
+th{
+    
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+body{
+    background-color: rgb(3, 0, 44);
+    color: rgb(214, 214, 214);
+    font-size: 32px;
+    text-align: center;
+}

@@ -9,7 +9,17 @@ var wordBank = ["autotroph", //Matteo Salverio
 "allele",
 "cell",
 "mitochondria",
-"hydrophobic" //10
+"hydrophobic", //10
+"adenine", //Cayla Lyman
+"ribose",
+"chloroplasts",
+"glycolysis",
+"interphase", //15
+"phagocytosis",
+"leukocyte",
+"pathogen",
+"mutation",
+"mutagens" //20
 ]
 var questionBank = ["an organism with the ability to produce its own food/energy", //Matteo Salverio
 "where something lives",
@@ -20,7 +30,17 @@ var questionBank = ["an organism with the ability to produce its own food/energy
 "one or two more versions of a gene",
 "smallest unit that can carry on all processes of life",
 "powerhouse of the cell",
-"repells water" //10
+"repells water", //10
+"molecule that contains nitrogen", //Cayla Lyman
+"a C3 sugar",
+"organelles that trap light",
+"the process b which 1 glucose molecule is broken down into 2 Pyruvic Acid molecules",
+"prior to mitosis, is the longest phase", //15
+"when a white blood cell engulfs bacteria and viruses",
+"white blood cell",
+"disease-causing germs",
+"changes in the DNA, sometimes an incorrect protien is created",
+"cause mutations" //20
 ]
 var num = Math.floor(Math.random() * wordBank.length)
 wordI = wordBank[num].toUpperCase()

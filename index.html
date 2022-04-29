@@ -5,16 +5,13 @@
 
 <body>
 
-  <h2>Biology Wordle</h2>
-  <h4>By Matteo Salverio and Cayla Lyman</h4>
-  <h3 id="label"></h3>
-  <input type="text" placeholder="Type something..." id="myInput" style="font-size: 24pt;">
-  <button type="button" style="font-size: 24pt;" onclick="Game();">Enter</button>
-  <br></br>
-  <div id="tableDiv">
-
-  </div>
-  <p id="finish"></p>
+  <h2 style="font-weight: bolder;">Biology Wordle</h2>
+  <h4 style="margin-bottom: 1px;">By Matteo Salverio and Cayla Lyman</h4>
+  <h3 id="label" style="margin-bottom: 1px;"></h3>
+  <button id="refresh" style="height: 20px; width: 100px; margin-top: 1px; margin-bottom: 10px;" onclick="RefreshPage();">New Word</button>
+  <div id="tableDiv"></div>
+  <br>
+  <div id="keysDiv"></div>
   <br>
   <a href="https://matteosalverio.github.io/BiologyWordle/Tutorial.html">How to Play</a>
 
